@@ -61,7 +61,7 @@ If you encounter any issues or have any questions, feel free to open an issue on
 
 ## Credits
 
-This TypeScript version is inspired by the original Rust version, [inter_channel_message_mover](https://github.com/laralove143/interchannel_message_mover.git), with the goal of improving accessibility and ease of development within the JavaScript/TypeScript ecosystem.
+This TypeScript version is inspired by the original Rust version, [interchannel_message_mover](https://github.com/laralove143/interchannel_message_mover.git), with the goal of improving accessibility and ease of development within the JavaScript/TypeScript ecosystem.
 
 ---
 
