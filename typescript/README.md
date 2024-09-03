@@ -45,7 +45,7 @@ Contributions are welcome! Please read the following guidelines before contribut
 
 1. **Fork the Repository**: Create a new branch for your feature or bugfix.
 2. **Create a Pull Request**: Ensure your code adheres to the existing style and includes appropriate tests.
-3. **Report Issues**: Use the [Issues page](https://github.com/yourusername/relay_bot/issues) to report bugs or suggest new features.
+3. **Report Issues**: Use the [Issues page](https://github.com/CaptainCooky/Relay-Bot/issues) to report bugs or suggest new features.
 
 ### Code of Conduct
 
@@ -57,11 +57,11 @@ This project is licensed under the MIT License. See the [LICENSE](../LICENSE) fi
 
 ## Issues
 
-If you encounter any issues or have any questions, feel free to open an issue on the [Issues page](https://github.com/yourusername/relay_bot/issues).
+If you encounter any issues or have any questions, feel free to open an issue on the [Issues page](https://github.com/CaptainCooky/Relay-Bot/issues).
 
 ## Credits
 
-This TypeScript version is inspired by the original Rust version of Relay-Bot, with the goal of improving accessibility and ease of development within the JavaScript/TypeScript ecosystem.
+This TypeScript version is inspired by the original Rust version, [inter_channel_message_mover](https://github.com/laralove143/interchannel_message_mover.git), with the goal of improving accessibility and ease of development within the JavaScript/TypeScript ecosystem.
 
 ---
 
