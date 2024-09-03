@@ -1,9 +1,10 @@
 {
   "compilerOptions": {
-    "target": "ES2020",
-    "module": "commonjs",
+    "target": "ES2020",                  // You can keep this target as ES2020
+    "module": "ESNext",                  // Change module to ESNext or ES6
     "strict": true,
     "esModuleInterop": true,
+    "moduleResolution": "node",          // Ensure module resolution is set to node
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
     "outDir": "./dist",
@@ -12,3 +13,4 @@
   "include": ["src/**/*"],
   "exclude": ["node_modules"]
 }
+

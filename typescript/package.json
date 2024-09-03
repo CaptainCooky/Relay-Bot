@@ -2,11 +2,12 @@
   "name": "relay-bot",
   "version": "1.0.0",
   "description": "A Discord bot for managing and organizing server channels.",
+  "type": "module",                      
   "main": "dist/main.js",
   "scripts": {
     "start": "tsc && node dist/main.js",
     "build": "tsc",
-    "dev": "ts-node-dev src/main.ts",
+    "dev": "ts-node-dev --loader ts-node/esm src/main.ts", 
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
