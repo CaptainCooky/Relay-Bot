@@ -1,32 +1,38 @@
-# Relay-Bot
+# interchannel message mover
 
-- [Add to Your Server](#)
-- [Get Support](#)
+- [add to your server](https://discord.com/api/oauth2/authorize?client_id=925836652558057552&permissions=536945664&scope=bot%20applications.commands)
+- [get support](https://discord.gg/6vAzfFj8xG)
 
-Relay-Bot is designed to help you keep your Discord channels organized. With Relay-Bot, you can easily move messages to the appropriate channel with just one command, saving you time and keeping conversations in the right place.
+imagine you or people in your server talked about anime in the #games channel.. unacceptable! and now you have to copy
+every message to the right channel and delete the messages and all.. even more unacceptable!
 
-## Usage
+with me you can do all that with just one command
 
-To use Relay-Bot, simply right-click on a message (or hold on it if you're on mobile), select **Apps**, and then choose the command you need.
+## usage
 
-## Terms of Service
+just right click in a message __(hold on it on mobile)__, select __apps__ then any command you want
 
-### Privacy
-- No data is saved anywhere by Relay-Bot.
+## terms of service
 
-### Disclaimers
-- The bot uses webhooks to replicate your message's content, nickname, and avatar.
-- The developers are not responsible for the copied data.
-- The hosted application is built directly from this repository.
+- *"i" refers to Lara Kayaalp, the developer of interchannel message mover*
+- *"you" refers to all users of the bot*
 
-## Self-Hosting
+### privacy
 
-These clauses override all other licenses:
+- no data is saved anywhere
 
-- Self-hosters may not advertise their hosted version of Relay-Bot in app directories or on websites like top.gg.
-- The self-hosted bot may not be in more than 5 guilds.
-- Feedback and support requests should be directed to the original repository.
+### disclaimers
 
-## Attribution
+- the webhooks the bot executes copy your message's content, nickname and avatar
+- i am not responsible for this copied data
+- i am the sole owner and developer of this bot
+- the hosted application is built directly from this repo
 
-This bot was forked from an original project by [Lara Kayaalp](https://github.com/larakayaalp) and has been fully reviewed and refactored. Future updates will include enhanced functionality and additional features as the bot is converted to JavaScript/TypeScript.
+### self-hosting
+
+these clauses override all other licenses:
+
+- *"you" refers to the self-hoster of the bot*
+- you may not advertise the self-hosted bot, such as in app directory or on websites such as top.gg
+- the self-hosted bot may not be in over 5 guilds
+- you must direct the feedback/support requests to me
