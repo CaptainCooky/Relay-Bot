@@ -15,7 +15,7 @@ Relay-Bot is a Discord bot designed to help manage and organize your server's ch
 
 ## Installation
 
-Coming soon: A link to invite Relay-Bot to your Discord server.
+Invite [Relay-Bot](https://discord.com/oauth2/authorize?client_id=1280415057288630282&permissions=2684447744&integration_type=0&scope=bot) to your Discord server.
 
 ## Getting Started
 
