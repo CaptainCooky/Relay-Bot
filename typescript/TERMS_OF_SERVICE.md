@@ -1,6 +1,6 @@
 # Terms of Service for Relay-Bot
 
-**Last Updated:** [Date]
+**Last Updated:** Tuesday, 3 September 2024 16:57:19
 
 Welcome to Relay-Bot! By using this bot, you agree to the following terms and conditions.
 

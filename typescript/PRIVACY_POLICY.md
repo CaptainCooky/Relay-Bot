@@ -1,6 +1,6 @@
 # Privacy Policy for Relay-Bot
 
-**Last Updated:** <t:1725346639>
+**Last Updated:** Tuesday, 3 September 2024 16:57:19
 
 This Privacy Policy explains how Relay-Bot handles your data while using our bot on Discord.
 
