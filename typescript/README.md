@@ -53,7 +53,7 @@ Please note that this project is released with a [Contributor Code of Conduct](C
 
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE](../LICENSE) file for details.
+This project is licensed under the MIT License. See the [LICENSE](https://github.com/CaptainCooky/Relay-Bot/blob/main/typescript/LICENSE) file for details.
 
 ## Issues
 
