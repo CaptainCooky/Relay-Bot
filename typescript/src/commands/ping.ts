@@ -6,5 +6,11 @@ export const data = new SlashCommandBuilder()
   .setDescription('Replies with Pong!');
 
 export async function execute(interaction: CommandInteraction) {
-  await interaction.reply('Pong!');
+  try {
+    await interaction.reply('Pong!');
+  } catch (error) {
+    console.error('Failed to send a reply:', error);
+  }
 }
+
+
