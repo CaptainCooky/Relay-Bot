@@ -1,6 +1,6 @@
 # Code of Conduct
 
-As a member project of the OpenJS Foundation, the ALT Code Tooltip Utility uses [Contributor Covenant v2.0](https://contributor-covenant.org/version/2/0/code_of_conduct) as our code of conduct. The full text is included [below](#contributor-covenant-code-of-conduct) in English, and translations are available from the Contributor Covenant organization:
+As a member project of the OpenJS Foundation, the Relay-Bot uses [Contributor Covenant v2.0](https://contributor-covenant.org/version/2/0/code_of_conduct) as our code of conduct. The full text is included [below](#contributor-covenant-code-of-conduct) in English, and translations are available from the Contributor Covenant organization:
 
 - [contributor-covenant.org/translations](https://www.contributor-covenant.org/translations)
 - [github.com/ContributorCovenant](https://github.com/ContributorCovenant/contributor_covenant/tree/release/content/version/2/0)
