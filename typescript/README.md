@@ -1,3 +1,5 @@
+###
+
 ---
 
 # Relay-Bot (TypeScript Version)
@@ -18,17 +20,20 @@ Coming soon: A link to invite Relay-Bot to your Discord server.
 ## Getting Started
 
 1. **Clone the Repository:**
+
    ```bash
-   git clone https://github.com/yourusername/relay_bot.git
+   git clone https://github.com/CaptainCooky/Relay-Bot.git
    cd relay_bot/typescript
    ```
 
 2. **Install Dependencies:**
+
    ```bash
    npm install
    ```
 
 3. **Set Up Environment Variables:**
+
    - Create a `.env` file in the root of the `typescript/` directory with your Discord bot token:
      ```
      BOT_TOKEN=your-discord-bot-token
