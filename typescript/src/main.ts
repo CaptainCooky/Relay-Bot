@@ -1,6 +1,7 @@
 import { Client, GatewayIntentBits } from 'discord.js';
 import dotenv from 'dotenv';
 import { CommandHandler } from './CommandHandler.js';
+import { DeployCommands } from './DeployCommands.js';
 
 // Load environment variables from .env file
 dotenv.config();
@@ -24,8 +25,14 @@ const client = new Client({
 const commandHandler = new CommandHandler(client);
 
 // Log a message when the bot is ready
-client.once('ready', () => {
+client.once('ready', async () => {
   console.log(`Logged in as ${client.user?.tag}!`);
+
+  // Load commands for runtime so they are available
+  await commandHandler.loadCommands();
+
+  const commands = await client.application?.commands.fetch();
+  console.log('Commands:', commands);
 });
 
 // Listen for interaction events (e.g., commands)

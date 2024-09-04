@@ -15,21 +15,24 @@ export class CommandHandler {
   constructor(client?: Client) {
     this.client = client;
     this.commands = new Collection();
-
-    this.loadCommands();
   }
 
-  private loadCommands() {
+  // Make loadCommands accessible publicly so we can call it from main.ts
+  public async loadCommands() {
     const commandsPath = path.join(__dirname, 'commands');
     const commandFiles = fs.readdirSync(commandsPath).filter(file => file.endsWith('.js'));
 
-    console.log(`Loading commands from ${commandsPath}`);
+    console.log(`Loading commands from ${commandsPath}`); // Log path
+
+    if (commandFiles.length === 0) {
+      console.error("No command files found!");
+    }
 
     for (const file of commandFiles) {
       const filePath = path.join(commandsPath, file);
       console.log(`Loading command from file: ${file}`);
 
-      import(pathToFileURL(filePath).href).then((command) => {
+      await import(pathToFileURL(filePath).href).then((command) => {
         const commandData = command.data || command.default?.data;
 
         if (!commandData || !commandData.name) {
@@ -43,6 +46,8 @@ export class CommandHandler {
         console.error(`Failed to load command from file ${file}:`, error);
       });
     }
+
+    console.log(`Total commands loaded: ${this.commands.size}`);
   }
 
   public getCommands() {
